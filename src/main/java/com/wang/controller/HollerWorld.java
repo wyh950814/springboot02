@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HollerWorld {
     @RequestMapping("/page")
     public String getHollerWorld(){
+
+
+
         return "/img/index.html";
     }
 }
